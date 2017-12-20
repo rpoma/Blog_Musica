@@ -5,8 +5,165 @@
     <meta name="viewport" content="width=device-width,user-scalable=no">
     <title>Blog de Música</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel='stylesheet' href='css/estilos.css'>
+    <script src='js/bootstrap.min.js'></script>
   </head>
   <body>
-    
+    <div class="container-fluid">
+      <header>
+        <div class="row cabecera">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+            <img class="logo" src="img/logo4.jpg"/>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="redes-sociales">
+              <img class='img-rounded img-social' src='img/fb.png'/>
+              <img class='img-rounded img-social' src='img/ig.png'/>
+              <img class='img-rounded img-social' src='img/tt.png'/>
+            </div>
+          </div>
+        </div>
+      </header>
+      <nav class="navbar">
+        <div class="row">
+          <ul class="col-xs-12 col-lg-12 nav navbar-nav uncollapse navbar-inverse text-center">
+            <li class="nav-link col-xs-12 col-md-2 col-lg-2"><a href="#">Inicio</a></li>
+            <li class="nav-link col-xs-12 col-md-2 col-lg-2"><a href="#">Artistas</a></li>
+            <li class="nav-link col-xs-12 col-md-2 col-lg-2"><a href="#">Grupos</a></li>
+            <li class="nav-link col-xs-12 col-md-2 col-lg-2"><a href="#">Top 10</a></li>
+            <li class="nav-link col-xs-12 col-md-2 col-lg-2"><a href="#">Letras</a></li>
+            <li class="nav-link col-xs-12 col-md-2 col-lg-2"><a href="#">Acordes</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+          <div class="row contenido">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <h2>Tributo a The Who</h2>
+              <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                <p>The Who es una banda británica de rock considerada un icono de la música del siglo XX, formada en 1962 con el nombre de The Detours que cambió a aquel tras la incorporación del baterista Keith Moon. De esa manera el grupo, con Roger Daltrey (voz), Pete Townshend (guitarra, teclados y voz), John Entwistle (bajo y voz) y Keith Moon (batería), potenció su carrera escalando a los primeros puestos del ambiente del rock inglés. Fue conocida por sus energéticas presentaciones en vivo las cuales incluían la destrucción de sus instrumentos.The Who ha vendido alrededor de 100 millones de discos,​ posicionaron 27 sencillos en el Top 40 en el Reino Unido y Estados Unidos, así como 17 álbumes en el Top 10, obteniendo 18 discos de oro, 12 de platino y 5 de multi-platino solo en los Estados Unidos.</p>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                <img src="img/who.jpg" alt="The Who" class="img-contenido">
+              </div>
+
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 comentario">
+                <form role="Form">
+                  <fieldset>
+                    <div class="form-group">
+                      <div class="col-xs-1 col-sm-1 text-center">
+                        <span class="glyphicon glyphicon-user icono"></span>
+                      </div>
+                      <div class="col-xs-11 col-sm-11">
+                        <textarea rows="2" class="form-control input-element" placeholder="Comentario ..."></textarea>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <h2>Gran Concierto en Colombia</h2>
+              <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-push-4">
+                <p>Por primera vez y después del reciente éxito en su gira por Alemania y Austria, en la que recibió grandes reconocimientos y los mejores comentarios de la más exigente crítica y el público, la Orquesta Filarmónica Joven de Colombia invita a "Misi producciones" para ofrecer a los capitalinos un gran concierto de Navidad sin precedentes en el país. 200 voces del coro de "Misi Producciones" y 90 músicos, bajo la batuta del Director invitado del teatro musical Alemán, Christoph Wohlleben y los más destacados nuevos solistas colombianos, unirán su talento para brindar una experiencia inolvidable en esta Navidad. </p>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-pull-8 text-center">
+                <img src="img/concierto.jpg" alt="The Who" class="img-contenido">
+              </div>
+
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 comentario">
+                <form role="Form">
+                  <fieldset>
+                    <div class="form-group">
+                      <div class="col-xs-1 col-sm-1 text-center">
+                        <span class="glyphicon glyphicon-user icono"></span>
+                      </div>
+                      <div class="col-xs-11 col-sm-11">
+                        <textarea rows="2" class="form-control input-element" placeholder="Comentario ..."></textarea>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 busqueda">
+          <div class="row">
+            <div class="table-responsive">
+              <table class="table table-hover text-center">
+                  <thead>
+                      <tr>
+                          <th>
+                            <div class="row-centered">
+                              <div class="col-lg-10">
+                                <div class="input-group">
+                                  <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                                  </span>
+                                  <input type="text" placeholder="Buscar por ... " class="form-control">
+                                </div>
+                              </div>
+                            </div>
+
+                          </th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td><a href="#">The Beatles</a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="#">Spice Girls</a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="#">The Bangles</a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="#">The Supremes</a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="#">Ha-Ash</a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="#">Fifth-Harmony</a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="#">Jeans</a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="#">TLC</a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="#">Rocky</a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="#">Girls Aloud</a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="#">Little Mix</a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="#">Pussy Riot</a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="#">The Saturdays</a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="#">Destiny's Child</a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="#">The Who</a></td>
+                      </tr>
+                  </tbody>
+              </table>
+            </div>
+          </div>
+      </div>
+
+
+  </div>
+
   </body>
 </html>
